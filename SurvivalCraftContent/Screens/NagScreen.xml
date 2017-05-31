@@ -1,0 +1,30 @@
+<Screen xmlns="runtime-namespace:Game">
+
+  <ClearWidget />
+  <PanoramaWidget />
+
+  <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+    <CanvasWidget />
+
+    <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" Margin="0, 5">
+      <LabelWidget HorizontalAlignment="Center" Text="Thank you for trying "/>
+      <LabelWidget HorizontalAlignment="Center" Text="Survivalcraft" Color="0, 180, 0"/>
+      <LabelWidget HorizontalAlignment="Center" Text="!"/>
+    </StackPanelWidget>
+    
+    <LabelWidget HorizontalAlignment="Center" Text="Do you want to buy the game?" Margin="0, 5"/>
+
+    <StackPanelWidget HorizontalAlignment="Center" VerticalAlignment="Far" Direction="Horizontal" Margin="0, 20">
+      <BevelledButtonWidget Name="Buy" Style="{Styles/ButtonStyle_160x60}" Text="Buy" Margin="40, 0" />
+      <BevelledButtonWidget Name="Quit" Style="{Styles/ButtonStyle_160x60}" Text="Quit" Margin="40, 0" />
+    </StackPanelWidget>
+
+    <LabelWidget Name="QuitLabel_Wp81" HorizontalAlignment="Center" Text="Press Back button again to quit." Margin="0, 60"/>
+    <LabelWidget Name="QuitLabel_Win81" HorizontalAlignment="Center" Text="Press Start or Esc to quit." Margin="0, 60"/>
+
+    <CanvasWidget />
+
+  </StackPanelWidget>
+
+</Screen>

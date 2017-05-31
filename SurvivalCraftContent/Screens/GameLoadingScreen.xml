@@ -1,0 +1,7 @@
+<Screen xmlns="runtime-namespace:Game">
+  <RectangleWidget FillColor="0, 0, 0" OutlineColor="0, 0, 0, 0" Size="Infinity, Infinity"/>
+  <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <LabelWidget Name="OperationName" Font="{Fonts/Pericles24}" HorizontalAlignment="Center" />
+    <ValueBarWidget Name="OperationProgress" LayoutDirection="Horizontal" HorizontalAlignment="Center" BarsCount="5" FlipDirection="false" LitBarColor="0, 255, 0" UnlitBarColor="64, 64, 64" BarSize="12, 12" BarSubtexture="{Textures/Atlas/ProgressBar}" Spacing="10" Margin="0, 24" />
+  </StackPanelWidget>
+</Screen>

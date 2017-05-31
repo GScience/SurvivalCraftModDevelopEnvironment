@@ -1,0 +1,54 @@
+<Strings>
+
+  <String Name="MoveControlMode.Pad">Touchpad</String>
+  <String Name="MoveControlMode.Buttons">Buttons</String>
+  <String Name="LookControlMode.Pad">Touchpad Only</String>
+  <String Name="LookControlMode.EntireScreen">Entire Screen</String>
+  <String Name="LookControlMode.SplitTouch">Split Touch</String>
+
+  <String Name="GameMode.Creative.Description">In Creative mode you have an infinite supply of all items and all blocks can be mined infinitely fast. You are also immortal and can fly.</String>
+  <String Name="GameMode.Harmless.Description">In Harmless mode almost all danger is removed from the game. The animals will not attack unprovoked. Falls are less deadly. Health regeneration is very quick. Digging is 25% faster.</String>
+  <String Name="GameMode.Challenging.Description">Challenging is the normal survival mode. There is danger, but you will be able to respawn at your last sleep position when you die.</String>
+  <String Name="GameMode.Cruel.Description">Cruel mode is the same as Challenging, but you will not be able to respawn. Play wisely, because once you are dead, your world is lost!</String>
+  <String Name="GameMode.Adventure.Description">Adventure mode is for players who want to create quest maps and share them with others. In this mode you cannot dig without tools and health does not regenerate. Create your quest map in Creative mode and change it to Adventure before uploading.</String>
+
+  <String Name="SeaLevelOffset.Description">Adjust global sea level of the world.</String>
+  <String Name="TemperatureOffset.Description">Adjust global temperature of the world.</String>
+  <String Name="HumidityOffset.Description">Adjust global humidity of the world.</String>
+
+  <String Name="EnvironmentBehaviorMode.Living.Description">In Living mode the world is a living place full of animals. Plants and grass grow, blocks made of loose material collapse and detached leaves decay.</String>
+  <String Name="EnvironmentBehaviorMode.Static.Description">In Static mode the world has no animals. Plants growth, block collapsing and plant decay are disabled. Useful if you want to shape your world the way you want it.</String>
+
+  <String Name="TimeOfDayMode.Changing.Description">Time of day will change periodically. Sun, moon and stars will move across the sky.</String>
+  <String Name="TimeOfDayMode.Day.Description">Time of day will always be noon. Sun, moon and stars will stay stationary in the sky.</String>
+  <String Name="TimeOfDayMode.Night.Description">Time of day will always be midnight. Sun, moon and stars will stay stationary in the sky.</String>
+  <String Name="TimeOfDayMode.Sunrise.Description">Time of day will always be morning. Sun, moon and stars will stay stationary in the sky.</String>
+  <String Name="TimeOfDayMode.Sunset.Description">Time of day will always be evening. Sun, moon and stars will stay stationary in the sky.</String>
+
+  <String Name="TerrainGenerationMode.Normal.Description">In Normal mode the environment is made to look like the real world, full of forests, plains, deserts, glaciers, lakes, mountains, hills, caves and so on.</String>
+  <String Name="TerrainGenerationMode.Flat.Description">In Flat mode the terrain is completely flat, giving you the total freedom of creation. You can also change terrain level and type of block that fills it.</String>
+
+  <String Name="FlatTerrainLevel.Description">Adjust level of terrain above bedrock, only applicable in flat terrain mode. The lower you put it, the more space will be available above ground. The higher you put it, the more space will be available underground.</String>
+  <String Name="FlatTerrainMagmaOcean.Description">Turn ocean into a sea of magma.</String>
+
+  <String Name="WeatherMode.True">The world will experience periodical occurences of rain and snow that will accumulate on the ground. Lightning will strike tall objects and set them on fire.</String>
+  <String Name="WeatherMode.False">There will be no precipitation or lightning in the world.</String>
+
+  <String Name="AdventureRespawnMode.True">The player will be able to respawn at his last spawn or sleeping place when he dies (good for long adventures with checkpoints).</String>
+  <String Name="AdventureRespawnMode.False">The player will not be able to respawn, but will have to restart the adventure and start from scratch when he dies (good for small adventures with no checkpoints).</String>
+
+  <String Name="AdventureSurvivalMechanics.True">Hunger, stamina, body temperature, sleep deprivation will be simulated in adventure mode.</String>
+  <String Name="AdventureSurvivalMechanics.False">Hunger, stamina, body temperature, sleep deprivation will be disabled in adventure mode. Health and injuries will still be simulated.</String>
+
+  <String Name="CharacterSkin.Description">Choose character skin to use during the game.</String>
+  <String Name="BlocksTexture.Description">Choose blocks texture to use when drawing the world. You can completely change appearance of the world by using a different blocks texture.</String>
+
+  <String Name="ExternalContentType.BlocksTexture">Blocks Texture</String>
+  <String Name="ExternalContentType.World">World</String>
+
+  <String Name="Settings.Compatibility.InvisibleModelsWorkaround.Description">Enable this if you cannot see animals in the game. It selects a slower, less optimized code path which runs correctly on a wide range of devices even with a buggy shaders implementation.</String>
+  <String Name="Settings.Compatibility.SinglethreadedTerrainUpdate.Description">Enable this to force the game to use a single thread only when updating the terrain. It will make the game run slower on multicore devices, but might make it slightly faster on single core ones.</String>
+  <String Name="Settings.Compatibility.UseAudioTrackCaching.Description">Enable this if you experience issues with audio and have Android 4.3 or earlier. This setting reduces the number of AudioTrack objects created.</String>
+  <String Name="Settings.Compatibility.UseReducedZRange.Description">Enable this if you experience issues with graphics like invisible parts of the world near the player or garbled textures. It reduces the clip-space Z range from -1/1 to 0/1, as some Android devices have depth buffering and clipping issues with the full range.</String>
+  
+</Strings>

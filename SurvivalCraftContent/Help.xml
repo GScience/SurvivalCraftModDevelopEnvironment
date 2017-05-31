@@ -1,0 +1,486 @@
+<Help>
+  <Topic Title="Basic Movement">
+    Use the touchpad at the bottom left side of the screen to move.
+    Tap it once to jump.
+    This can also be configured to use directional buttons instead of the pad.
+    \n\n
+    Use the touchpad at the bottom right side of the screen to look around.
+    Tap it once to jump.
+    You can also drag your finger across any area of the screen to look.
+    \n\n
+    Falling from large heights will injure you.
+    \n\n
+    You can tweak control scheme of the game in the Controls and Sensitivity settings.
+    Experiment with various options, for example you may find you prefer buttons to touchpads, or split touch with crosshair to regular controls.
+    Controlling a first person game on a small touchscreen may look difficult, but once you get the hang of it, it is no different than using a gamepad or a mouse.
+    Because you can touch any part of the screen at any time, some actions like block digging or placement may even be easier.
+    \n\n
+    Some cheap devices have low quality touch screens or buggy touch drivers.
+    They might intermittently drop active touch points, or mix them up if touched in more than one point at once.
+    These are best avoided as playing on them is extremely frustrating.
+  </Topic>
+  <Topic Title="Sneaking">
+    Sneaking is useful if you want to move slowly and carefully, for example to avoid falling near the edge of a tall crevice.
+    \n\n
+    To toggle sneak mode, press the sneak button on the right side of the screen.
+    When sneak mode is enabled, your movement will be restricted at edges to prevent you from falling.
+    \n\n
+    Sneaking also makes your movements much quieter, allowing you to come closer to certain animals without scaring them away.
+  </Topic>
+  <Topic Title="Flying">
+    Flight is only available in Creative Mode.
+    To toggle fly mode, tap the flight button on the right side of the screen.
+    \n\n
+    Flying is much faster than walking and allows you to quickly get to otherwise inaccessible areas.
+  </Topic>
+  <Topic Title="Climbing Ladders">
+    Ladders can be crafted from wooden sticks.
+    Once placed on a vertical wall, they allow you to climb the wall easily.
+    \n\n
+    It's safest to climb the ladder when facing it.
+    This is true both for climbing upwards and downwards.
+    \n\n
+    Consequently, the best way to climb down a ladder is to approach it backwards, as you would do in real life.
+    \n\n
+    You can jump off the ladder at any time
+  </Topic>
+  <Topic Title="Riding Animals">
+    You can ride certain animals, such as horses or camels.
+    Riding an animal lets you move more quickly and view the world from a higher vantage point.
+    \n\n
+    To mount an animal, get close to it and wait for it to stop.
+    The sneak button will turn into mount button.
+    Press it to mount/dismount.
+    \n\n
+    To successfully ride an animal, you need a saddle, which can be crafted from leather and wooden sticks.
+    When the animal is saddled, its behavior changes and it becomes more friendly to you.
+    \n\n
+    Do not mount an unsaddled animal, it will not like it.
+    \n\n
+    You can also ride boats in the same way as animals.
+  </Topic>
+  <Topic Title="Hunger">
+    You need to eat to stay alive.
+    If you don't eat for a long time, your character will start complaining about it and eventually losing health, until he dies.
+    In addition to that, if you're hungry, you don't regenerate health.
+    \n\n
+    To eat, drag an edible item to the eat rectangle in the body panel.
+    Your character will inform you whether he is still hungry.
+    \n\n
+    Food can be obtained from many sources in the game.
+    The obvious one is hunting edible animals, such as cows, birds and wildboars.
+    Keep in mind that hunting may be dangerous, and the supply of animals will quickly dry up in nearby areas, forcing you to search further.
+    \n\n
+    An alternative to hunting is farming.
+    Farming lets you create a sustainable source of food, although it may require lots of preparatory work and further maintenance.
+  </Topic>
+  <Topic Title="Stamina">
+    Your character is not infinitely strong.
+    When you perform a tiring action for a long time without break, you will tire and start panting.
+    \n\n
+    When you are panting, your performance is lower than when you are rested.
+    You will move and dig slower, and you will not be able to perform high jumps.
+    \n\n
+    Some of the actions that are tiring: running, jumping, swimming, digging.
+    \n\n
+    It is especially dangerous to get tired when you are in water, because you can't rest while swimming.
+    Watch for early signs of panting, and get out of water immediately.
+    When you get exhausted while in water, you will start drowning and die unless the shore is very near.
+    \n\n
+    Be careful, it's easy to get tired when running away from dangerous animals.
+    This can have fatal consequences for obvious reasons.
+  </Topic>
+  <Topic Title="Digging Blocks">
+    In Survivalcraft, the entire world is destructible.
+    \n\n
+    To dig a block, press it and hold your finger.
+    Digging cracks will appear as the block is being dug.
+    \n\n
+    Some blocks take a very long time to dig without proper tools. 
+    Digging some blocks, such as glass, will destroy them.
+  </Topic>
+  <Topic Title="Placing Blocks">
+    To place a block, select it from your inventory so that you are holding it in your hand.
+    Then tap the face of an existing block, where you want the new block to be attached.
+    The block will be placed there immediately, unless it is impossible for some reason.
+    \n\n
+    Certain items behave differently if attached to different parts of an existing block.
+    For example, trapdoors can be attached to the top or bottom parts with different results.
+  </Topic>
+  <Topic Title="Interacting With Blocks">
+    Certain blocks are interactive.
+    Some examples of interactive blocks: doors, chests, crafting tables, furnaces, buttons.
+    \n\n
+    To interact with a block, tap on it.
+    This will invoke the action associated with the block.
+    \n\n
+    For example, if you tap on a closed door, it will open.
+  </Topic>
+  <Topic Title="Editing Blocks">
+    Some blocks are editable.
+    Examples of editable blocks: crossbow, memory bank, musket, truth table.
+    \n\n
+    Editable blocks are marked with an edit icon in your inventory.
+    \n\n
+    To edit a block in the inventory, select it so that you hold it in your hand.
+    If the selected block is editable, sneak button will turn into edit button.
+    \n\n
+    To edit a block which is placed on the ground, stand close to it and point center of the screen at the block.
+    If the block in front of you is editable, it will be highlighted and sneak button will turn into edit button.
+    \n\n
+    Editing lets you change advanced properties of blocks.
+    For example editing a crossbow will let you draw it and load a bolt.
+    Editing a truth table lets you see and set the binary values.
+    To discover which items are editable, watch out for the edit icon on inventory items.
+    \n\n
+    If you both hold an editable item in your hand and look at an editable block in the terrain, the item in hand will have precedence.
+  </Topic>
+  <Topic Title="Throwing Items">
+    Certain items can be thrown.
+    Some examples of throwable items: stone chunks, spears, bricks, snowballs.
+    \n\n
+    To throw an item, select it in your inventory, so that you are holding it in your hand.
+    Press and hold a point on the screen where you want to throw.
+    A throwing sights will appear.
+    \n\n
+    You can move the sights to refine your aim.
+    Once you release your finger, the item will be thrown.
+    To cancel a throw, move the sights to the edge of the screen.
+    \n\n
+    Spears are powerful thrown weapons that do a lot of damage when they hit the target.
+  </Topic>
+  <Topic Title="Dropping Items">
+    All items and blocks can be dropped if you no longer need them.
+    \n\n
+    To drop an item or block, drag it from the inventory slot and drop it on the screen.
+    The item will fly a short distance away and fall to the ground.
+    \n\n
+    Watch out, if you're standing too close you will immediately pick up the dropped item again.
+    \n\n
+    Dropping items into fire or magma will destroy them.
+  </Topic>
+  <Topic Title="Crafting">
+    Crafting is a process of making more complicated items out of simpler ones, using a crafting table or the crafting area.
+    \n\n
+    To craft, you need to place ingredients in the crafting slots in a pattern specific to the item being crafted.
+    All crafting recipes are available in RECIPAEDIA.
+    \n\n
+    There are two sizes of crafting areas: 2x2 and 3x3.
+    The smaller area is always available and can be accessed by pressing the crafting button.
+    To craft more complicated items on a 3x3 area you need to make a crafting table, place it somewhere in the world and click on it.
+  </Topic>
+  <Topic Title="Smelting">
+    Smelting is thermal processing of substances in a furnace.
+    Up to 2 substances can be placed in the furnace at the same time.
+    \n\n
+    Furnace requires fuel to work.
+    You can use anything that is combustible as a fuel, but some fuels are better (longer lasting) than others.
+    The best fuel is coal.
+    \n\n
+    You can leave the furnace while it is smelting. The smelting process will continue while you are away.
+    All smelting recipes are available in RECIPAEDIA.
+  </Topic>
+  <Topic Title="Splitting stacks of items">
+    Press and hold the slot containing the stack you want to split for about 1 second.
+    A red border will appear around it.
+    The slot is now in splitting mode.
+    Tap any other empty slot, and one item will be taken from the highlighted slot and placed into the tapped slot.
+    \n\n
+    This technique can also be used to quickly spread items from one stack to multiple slots, e.g. in a crafting table.
+  </Topic>
+  <Topic Title="Mining">
+    You need to mine to obtain resources needed for crafting and smelting.
+    Mining can be as simple as digging in a random place with your bare hands.
+    You will however soon discover that it is not an effective way to mine, because digging hard rock by hand takes a very long time.
+    \n\n
+    You need to craft mining tools, such as a shovel and pickaxe first.
+    You also need to dig in different places to find specific resources.
+    Caves are a good starting point, because they show you a large cross section through the terrain for free.
+    \n\n
+    Be aware that some resources, such as diamonds or malachite, require tools made of strong materials to be mined.
+  </Topic>
+  <Topic Title="Farming">
+    Farming allows you to grow a variety of plants for decorative or consumption purposes.
+    To grow a plant, you need to obtain its seeds, usually from a fully grown plant specimen.
+    \n\n
+    Some plants will drop seeds immediately when they are harvested, some will require crafting to extract seeds.
+    Some seeds will tolerate poor soil, like dirt or grass.
+    Others, like rye or pumpkins, require high quality tilled and moist soil, which has been fertilized with saltpeter.
+    To make sure the soil is moist, use bucket to create water channels no further than several blocks away.
+    Moist soil is darker than a dry one.
+    To further enhance soil quality, sprinkle it with saltpeter (which is a source of nitrogen).
+    \n\n
+    Plants may take a long time to grow, be patient.
+  </Topic>
+  <Topic Title="Buckets">
+    Buckets are used for transporting fluids, such as water or magma.
+    To fill empty bucket with a fluid, you need to find a source block of the fluid.
+    For example, all ocean blocks are source blocks of water.
+    \n\n
+    Holding the empty bucket in your hand, tap the source block to collect it.
+    The block will be removed from the world and placed inside the bucket.
+    \n\n
+    To pour the fluid from the bucket, tap on terrain.
+    A new source block of fluid will be created, and the fluid will spread out from there.
+    You can collect the placed source block again with the empty bucket.
+  </Topic>
+  <Topic Title="Dyeing and Painting">
+    Some blocks and items can be dyed or painted.
+    \n\n
+    To paint bricks, stone, wood or other blocks, make a paint bucket of appropriate color and use it on the item you want to paint.
+    One bucket is good for painting several dozen blocks, after that it runs out.
+    \n\n
+    Paint stripper can be used to remove paint and restore blocks to their original appearance.
+    \n\n
+    To dye clothing, place a piece of clothing with a bucket full of paint in a furnace.
+    You can dye clothing multiple times, combining colors.
+    \n\n
+    You can also dye carpets in a similar way.
+  </Topic>
+  <Topic Title="Electricity">
+	Electricity is a powerful mechanism in the game that can be used to control behavior of certain blocks.
+	For example, a lightbulb will produce light when connected to a source of electricity, doors will open or close if activated with an electric signal, and many more.
+    \n\n
+	If you know a bit about real-world electronics, you should feel at home in Survivalcraft.
+	All the familiar devices, such as logic gates (AND, OR, NOT etc.) are present and signals are characterized by voltage.
+	You can combine gates to build complex circuits, even computers or video games (check Community Content for some great builds by master electricians).
+	There are also sensors, such as pressure plates, photodiodes etc. that produce varying signals depending on conditions around them.
+    \n\n
+	For descriptions of all available electric devices, check RECIPAEDIA.
+    \n\n
+	Electric signals in the game are conducted through copper wires and have a voltage that is between 0V and 1.5V, in increments of 0.1V.
+	This gives 16 distinct voltage values.
+    \n\n
+	Digital devices, such as buttons, lightbulbs or doors work only with digital signals that have two possible values: low (0, false, off, no) and high (1, true, on, yes).
+	In this case, a voltage below 0.8V indicates low, 0.8V and greater indicates high.
+	Most commonly digital signals have voltages of 0V for low and 1.5V for high, but any value below 0.8V will be read as low.
+    \n\n
+	Analog devices, such as pressure plates or motion detectors work with analog signals.
+	They will react to each different value of voltage between 0 and 1.5V, not just low and high states.
+	For example, sound generator volume and pitch inputs are controlled by analog voltages.
+	The volume and pitch will increase smoothly as the voltages get higher.
+    \n\n
+	It's good to remember that both analog and digital signals are really the same thing when conducted through the wire, a voltage between 0V and 1.5V.
+	Only the way a device interprets the signal's voltage determines whether it is digital or analog.
+    \n\n
+	Voltage can also be interpreted as a number, with 0V representing 0 and 1.5V representing 15.
+	Some devices, such as displays, DAC/ADC converters or counters use this interpretation.
+    \n\n
+	All electric devices have connections (inputs and outputs) on their sides, and sometimes also on their back (the face attached to the wall).
+	On complex devices these are indicated by blue and red dots on edges of the elements.
+	Blue means input, red means output.
+	Number of dots means number of the connection.
+	Simple devices, such as buttons, switches or lightbulbs do not have these dots, because they use one input/output only and can be connected from any side.
+    \n\n
+	Electric devices can be placed on the walls, and sometimes also on the floor/ceiling. 
+	Once placed, they can be rotated so that it's easy to connect appropriate inputs and outputs together with the wires.
+    \n\n
+	There is a special type of block in the game, called wire-though-block, which is a normal block with a hole drilled and an electric wire threaded though it.
+	It is very useful when trying to hide wires from sight, run them though the wall, or prevent them from connecting with other wires.
+	It is also the only way to access the "back" connection of devices which have it.
+	\n\n
+	Electricity in Survivalcraft is processed at a frequency of 100Hz.
+	It means that voltage goes from one element to another in 0.01s, irrespective of the length of the wire.
+	If you need to delay the signal, you may place some neutral elements in its path (for example an OR gate or a pair of NOT gates).
+	Each additional element in the way of the signal will delay it by 0.01s.
+	For longer delays use Delay Gate, which can produce very long delays if required.
+	\n\n
+	Electricity is a complex topic and making large working machines requires some learning, but is very satisfying.
+	Simple devices however can be constructed by anyone.
+	For example, try placing a button next to the hinges of a door.
+	You will notice a wire appeared, clicking the button will now operate the door!
+	All this scary talk about voltages, signals, digital and analog, but in reality it's that simple.
+	\n\n
+	Another easy thing to build might be a light switch.
+	Place a lightbulb on the ceiling and a switch (not button) on the wall.
+	Then connect them with a wire.
+	The switch now operates the light, like in a real room!
+	\n\n
+	Survivalcraft is more about realism than other games of this type, and electricity is no exception.
+	What you learn here, might become invaluable when you get to learn this at school, or have to use it for living.
+	\n\n
+	Explore and have fun!
+  </Topic>
+  <Topic Title="Furniture">
+    Furniture blocks are sculpted from up to 16x16x16 smaller sub-blocks.
+    Sub-blocks within a single furniture block can be made of different materials and painted to different colors.
+    Through crafting, furniture blocks can be combined, made interactive or made to work with electricity.
+    Furniture designs can be combined into packs, shared between worlds and uploaded to Community Content.
+    \n\n
+    To design and create furniture use the hammer tool.
+    You need to build the design from regular blocks in the world and then use the hammer on the resulting structure to shrink it down.
+    Furniture design window will appear where you can tweak the design by moving it, rotating it and changing resolution (between 2x2x2 and 16x16x16).
+    Once you are happy with the design, you can commit it.
+    \n\n
+    In creative mode, the design will be turned into a single furniture block, and the source blocks from which the design was created will remain in the world.
+    In survival modes, the design will be turned into several copies of the furniture block (with number depending on resolution) and the source blocks will be consumed.
+    Furniture blocks can be placed in the world in 4 orientations, similar to e.g. a furnace or a ladder.
+    \n\n
+    Not every block can be used for furniture design.
+    For example, dirt or grass are ignored by the hammer tool.
+    Allowed materials include: planks, granite, basalt, sand, clay, cobblestone, stone bricks, sandstone, marble, bricks, coal, malachite, diamond, copper, iron, glass, carpet, torches, wicker lamps, water, magma.
+    Source blocks of the design can be painted or dyed to make the design more colorful.
+    Finished furniture can also be painted, this will cover any colors of the source blocks.
+    \n\n
+    Certain source blocks have special functions.
+    For example a torch/lamp block will cause the furniture to have a fire attached to it in the place of the block.
+    The design will also emit light.
+    \n\n
+    You have to be careful when constructing furniture to avoid placing the design on a base made of allowed material (for example sand).
+    The hammer tool will not be able to distinguish between the blocks you placed and the base, and will try to incorporate base into the design.
+    This will likely cause "design too large" error, because the maximum size of a design in any dimension is 16 blocks.
+    \n\n
+    Once the furniture block has been created, you can use crafting table to combine it with other blocks in various ways.
+    The following combinations are possible:
+    \n\n
+    * Combine multiple pieces of furniture into one to create interactive furniture.
+    Interactive furniture toggles between its constituing designs on click or on electric signal.
+    You can create opening doors, switchable lights, raising platforms etc.
+    Up to 9 pieces of furniture can be combined (max capacity of crafting table).
+    \n\n
+    * Combine exactly one furniture design with an electric button to create a custom button.
+    The resulting furniture will act as a button.
+    \n\n
+    * Combine exactly two furniture designs with an electric switch to create a custom switch.
+    The resulting furniture will act as a switch, with two furniture pieces acting as two states of the switch.
+    \n\n
+    * Combine multiple pieces of furniture with an electric wire to create connected interactive furniture.
+    The furniture will work in the same way as interactive furniture, but toggling it will also toggle all neighboring pieces of connected interactive furniture.
+    You can create multi-block toggleable structures, for example large doors.
+    \n\n
+    In the furniture panel in creative inventory you can view and organize your furniture designs.
+    Create named furniture sets to categorize the designs.
+    The newly created designs are placed in "Uncategorized" set, which has a special function.
+    Any design in this set, which does not otherwise exist in the world (no items or placed blocks) will be automatically recycled.
+    Be careful and move valuable designs to named furniture sets to avoid accidentally losing them.
+    Each named furniture set can be turned into a furniture pack and exported from the world.
+    You can later import it to other worlds or upload to Dropbox/SDcard and share with others.
+    Furniture packs can also be uploaded to community content.
+    \n\n
+    There are certain limitations to the furniture system:
+    \n\n
+    * A furniture block can be made from up to 16x16x16 sub-blocks.
+    \n\n
+    * The amount of geometry used for a single design cannot exceed 300 triangles (too complex designs with many nooks and crannies are not possible).
+    The game uses an intelligent tesselation algorithm that optimizes the geometry, so 300 triangles is plenty for even fairly complex designs, unless you really go over the top.
+    To reduce number of triangles, you can for example reduce number of small details, reduce number of painted blocks and fill up any internal holes in the design.
+    \n\n
+    * You can only have up to 1024 unique furniture designs in the world.
+    Every time you paint a furniture or combine it with others, you are creating new designs that count towards the total.
+    Unused designs (that do not exist in the world either as items or blocks, and are in the "uncategorized" set in the inventory) are automatically recycled.
+  </Topic>
+  <Topic Title="Sleeping">
+    Sleeping will help restore your health and pass the boring night hours when it's too dark or dangerous to work.
+    \n\n
+    Even if you are not hurt, you still need to sleep from time to time.
+    If you neglect it, your character will start to have short blackouts.
+    If you keep active despite this warning, the blackouts will get longer and eventually you will lose consciousness.
+    Losing consciousness is very dangerous, because predatory animals will quickly smell you and feast on your unguarded flesh.
+    \n\n
+    Although you don't need a bed, you can only sleep in a cosy and comfortable place.
+    The ground cannot be too hard and the area cannot be too exposed to the elements, or wet.
+    \n\n
+    Your respawn point is set to a place where you last slept.
+    To sleep, open the body screen and press a little sleeping button.
+    \n\n
+    Note: Sleeping is disabled in the demo.
+  </Topic>
+  <Topic Title="Body Temperature">
+    When you are out in the cold without proper clothes, your body temperature will drop.
+    Your view will start to freeze over and you will start losing health.
+    Find a warmer place or get near fire to warm and dry yourself.
+    \n\n
+    Too much warmth will do you no good either, standing too close to a large fire will cause you to overheat.
+    \n\n
+    Sheltered areas are warmer than outside.
+    Plugging all the holes and locking doors will make a shelter warmer still.
+    Even a small hole open to the elements will admit draughts and make a large difference to temperature.
+    Make a fire inside your shelter to make it homely warm and allow you to take your clothes off.
+    \n\n
+    Being wet dramatically increases your susceptibility to cold, find a warm place to dry yourself faster.
+    \n\n
+    The best way to deal with cold is to wear multiple layers of thick, dry clothes.
+    You need to cover your entire body, leaving feet or head unclothed will defeat most of the warming effect other clothes have.
+    Clothes made of animal fur are best for keeping cold out.
+  </Topic>
+  <Topic Title="Clothing">
+    Wearing clothing provides warmth in cold climates and armor protection during combat.
+    You can access clothing interface by using Clothing button.
+    \n\n
+    There are 4 clothing slots on your body: head, torso, legs and feet.
+    Each slot can have multiple clothing items, layered one on top of each other.
+    The effects of multiple clothing items combine.
+    \n\n
+    Not everything can be worn on top of anything else, for example you will not be able to wear a t-shirt on top of a fur coat.
+    \n\n
+    Wearing thick clothes in one slot while leaving another slot bare will not afford much warmth.
+    It's imperative to cover entire body to really benefit from clothing.
+    It's the thinnest piece of clothing that determines how much heat you lose.
+  </Topic>
+  <Topic Title="Armor">
+    Wearing armor or thick clothing will reduce or even completely eliminate combat injuries.
+    Armor will absorb the hits, so that they damage the armor instead of injuring your body.
+    Once the armor receives too much damage, it will disintegrate.
+    \n\n
+    When you are attacked, you will randomly receive a hit into one of your four body areas: head, torso, legs or feet.
+    If there is no armor at that slot, you will receive full injury, irrespective of how much armor you wear elsewhere.
+    By far the most likely area to receive hits is torso, followed by legs.
+    Wearing torso armor will stop 60% of hits, torso and legs together will stop 80%.
+    Head and feet armor is of less importance, unless you want to be 100% safe.
+    \n\n
+    The strongest armor is made of iron and diamonds.
+    Early in the game, you can craft wooden torso armor from sticks and strings.
+    It's not very sturdy but will stand a few hits potentially saving your life.
+    \n\n
+    Even plain clothes have certain armor value, especially thick ones made of leather and fur.
+    They do not stop all hits, but only partially reduce the damage.
+    \n\n
+    Wearing heavy armor will make you sink to the bottom and drown, be careful around deep water.
+  </Topic>
+  <Topic Title="Boats">
+    Boats can be used to travel across large bodies of water quickly and safely.
+    \n\n
+    If you don't have a boat, you risk drowning from exhaustion or being attacked by dangerous underwater creatures.
+    \n\n
+    To craft a boat you need lots of wood and a crafting table.
+    Once the boat is crafted, it can be placed on the shore and mounted in the same way as a horse.
+    \n\n
+    You can only control a boat when it is in the water.
+  </Topic>
+  <Topic Title="Suicide">
+    Sometimes when you are stuck, the only option is suicide, so that you can respawn at your last sleeping place.
+    \n\n
+    To kill yourself, open the body screen and repeatedly press the skull and bones button.
+  </Topic>
+  <Topic Title="Dropbox">
+    The game uses Dropbox service to allow you to download and upload data to/from your device.
+    \n\n
+    Through Dropbox, you can backup and share worlds with others.
+    You can also download custom blocks textures.
+    \n\n
+    To login to Dropbox, click on the login button on the Dropbox screen.
+    If you don't have a Dropbox account yet, you will be able to setup one during the login.
+    \n\n
+    Once you log in, the Dropbox screen will show you the contents of your online Dropbox folders, and allow you to download the files to your device.
+  </Topic>
+  <Topic Title="SD Card" DisabledPlatforms="Ios, Windows81, WindowsPhone81, Desktop">
+    The game allows you to import and export worlds to SD Card for sharing and backup purposes.
+    \n\n
+    If your device does not have an SD Card, generic external storage folder will be used.
+    The location of the data on the device is normally /sdcard/Survivalcraft
+  </Topic>
+  <Topic Title="Community Content">
+    The game allows you to browse a list of worlds and block textures published by other Survivalcraft community members, and download them.
+    \n\n
+    Once you build something interesting, you can also publish it through this service, and it will appear on the list for anyone to download.
+    \n\n
+    To publish something, first you need to put it on the internet, so that it's accessible to everyone.
+    The easiest place to use is Dropbox, although you can use any other provider.
+    Once it's done, you can publish the link to it through "Publish Link" dialog in the game.
+    \n\n
+    Note: the server does not store your content, only the link.
+    Just like a search engine.
+    You are responsible for keeping the data accessible through the published link.
+    Watch out for exceeding bandwidth limits of your provider, having a link near top of the list will make your content receive multiple thousands of downloads in a short time.
+  </Topic>
+</Help>

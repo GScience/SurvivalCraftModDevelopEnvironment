@@ -1,0 +1,14 @@
+<StackPanelWidget xmlns="runtime-namespace:Game" Direction="Horizontal" Margin="0, 0" VerticalAlignment="Center">
+  <RectangleWidget Name="WorldItem.Icon" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" Size="64, 64" Subtexture="{Textures/Atlas/WorldIcon}" VerticalAlignment="Center" />
+  <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <LabelWidget Name="WorldItem.Name" Font="{Fonts/Pericles32}" Margin="10, 0" VerticalAlignment="Center" />
+    <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+      <LabelWidget Name="WorldItem.Size" Font="{Fonts/Pericles18}" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center" />
+      <LabelWidget Name="WorldItem.Date" Font="{Fonts/Pericles18}" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center" />
+      <LabelWidget Name="WorldItem.GameMode" Font="{Fonts/Pericles18}" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center" />
+      <LabelWidget Name="WorldItem.EnvironmentBehaviorMode" Font="{Fonts/Pericles18}" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center" />
+      <LabelWidget Name="WorldItem.Version" Font="{Fonts/Pericles18}" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center" />
+    </StackPanelWidget>
+  </StackPanelWidget>
+  <CanvasWidget Size="Infinity, 0" />
+</StackPanelWidget>

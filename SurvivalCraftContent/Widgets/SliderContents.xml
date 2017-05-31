@@ -1,0 +1,11 @@
+<SliderWidget xmlns="runtime-namespace:Game" SoundName="Audio/UI/ButtonClick">
+  <StackPanelWidget Direction="Horizontal" IsHitTestVisible="false">
+    <CanvasWidget Name="Slider.Canvas" Size="Infinity, Infinity">
+      <RectangleWidget Name="Slider.Rectangle" Size="Infinity, 6" OutlineColor="0, 0, 0, 0" FillColor="24, 112, 0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10, 0" />
+      <BevelledRectangleWidget Name="Slider.Tab" Size="30, 45" Texture="{Textures/Gui/Panel}" IsHitTestVisible="true" BevelSize="2" TextureScale="0.5" />
+    </CanvasWidget>
+    <CanvasWidget Name="Slider.LabelCanvas" Size="100, Infinity">
+      <LabelWidget Name="Slider.Label" Text="" Font="{Fonts/Pericles18}" VerticalAlignment="Center" HorizontalAlignment="Center" />
+    </CanvasWidget>
+  </StackPanelWidget>
+</SliderWidget>

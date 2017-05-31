@@ -1,0 +1,10 @@
+<CheckboxWidget xmlns="runtime-namespace:Game" Margin="0, 6" Color="255, 255, 255" IsAutoCheckingEnabled="true" CheckboxSize="32, 32" Font="{Fonts/Pericles18}" TickSubtexture="{Textures/Atlas/Tick}">
+  <StackPanelWidget Direction="Horizontal">
+    <CanvasWidget Name="Checkbox.Canvas" VerticalAlignment="Center">
+      <RectangleWidget Name="Checkbox.Rectangle" FillColor="0, 0, 0, 0" OutlineThickness="2" />
+      <RectangleWidget Name="Checkbox.Tick" IsVisible="false" Margin="1, 1" />
+      <ClickableWidget Name="Checkbox.Clickable" />
+    </CanvasWidget>
+    <LabelWidget Name="Checkbox.Label" Text="" VerticalAlignment="Center" Margin="10, 0" />
+  </StackPanelWidget>
+</CheckboxWidget>

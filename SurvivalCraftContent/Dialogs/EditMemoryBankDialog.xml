@@ -1,0 +1,135 @@
+<CanvasWidget xmlns="runtime-namespace:Game">
+
+  <RectangleWidget FillColor="0, 0, 0, 192" OutlineColor="0, 0, 0, 0" IsHitTestVisible="true" />
+
+  <CanvasWidget Size="640, 400" ClampToBounds="true" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" OutlineThickness="2" />
+    <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Near" Margin="0, 15">
+      
+      <LabelWidget Font="{Fonts/Pericles32}" Text="Edit Memory Bank" HorizontalAlignment="Center"/>
+
+      <CanvasWidget Size="0, 5" />
+
+      <CanvasWidget Size="Infinity, 50">
+        <LabelWidget Font="{Fonts/Pericles18}" Color="128, 128, 128" Text="Memory bank contains 256 4-bit words. Enter data using hexadecimal characters (0 to 9, A, B, C, D, E, F)." HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Margin="30, 0"/>
+      </CanvasWidget>
+
+      <CanvasWidget Size="0, 15" />
+
+      <CanvasWidget Name="EditMemoryBankDialog.GridPanel" Margin="20, 0">
+
+        <RectangleWidget FillColor="0, 0, 0, 0" OutlineColor="128, 128, 128, 128" OutlineThickness="1" />
+        <ScrollPanelWidget Direction="Vertical" Margin="3, 3">
+
+          <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
+
+            <LabelWidget Text="0123456789ABCDEF" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="54, 10" VerticalAlignment="Center"/>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="0" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line0" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="1" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line1" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="2" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line2" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="3" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line3" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="4" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line4" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="5" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line5" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="6" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line6" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="7" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line7" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="8" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line8" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="9" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line9" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="A" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line10" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="B" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line11" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="C" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line12" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="D" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line13" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="E" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line14" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+            <StackPanelWidget Direction="Horizontal">
+              <LabelWidget Text="F" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Color="128, 128, 128" Margin="10, 0" VerticalAlignment="Center"/>
+              <TextBoxWidget Name="EditMemoryBankDialog.Line15" Size="483, 50" MaximumLength="16" OverwriteMode="true" Font="{Fonts/SignFont}" FontScale="3" FontSpacing="2" Margin="10, 0" VerticalAlignment="Center"/>
+            </StackPanelWidget>
+
+          </StackPanelWidget>
+        
+        </ScrollPanelWidget>
+      </CanvasWidget>
+
+      <StackPanelWidget Name="EditMemoryBankDialog.LinearPanel" Margin="20, 0" Direction="Vertical" HorizontalAlignment="Center">
+        <CanvasWidget Size="0, Infinity" />
+        <LabelWidget Font="{Fonts/Pericles18}" Color="128, 128, 128" Text="Enter up to 256 hexadecimal characters" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" />
+        <CanvasWidget Size="0, 10" />
+        <CanvasWidget Size="504, 54" HorizontalAlignment="Center">
+          <RectangleWidget FillColor="0, 0, 0, 0" OutlineColor="128, 128, 128, 128" OutlineThickness="1" />
+          <TextBoxWidget Name="EditMemoryBankDialog.LinearText" Size="500, 50" MaximumLength="256" Font="{Fonts/SignFont}" FontScale="3" Margin="2, 2" />
+        </CanvasWidget>
+        <CanvasWidget Size="0, Infinity" />
+      </StackPanelWidget>
+      
+      <CanvasWidget Size="0, 15" />
+
+      <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+        <BevelledButtonWidget Name="EditMemoryBankDialog.OK" Style="{Styles/ButtonStyle_160x60}" Text="OK" Margin="20, 0" />
+        <BevelledButtonWidget Name="EditMemoryBankDialog.SwitchViewButton" Style="{Styles/ButtonStyle_160x60}" Margin="20, 0" />
+        <BevelledButtonWidget Name="EditMemoryBankDialog.Cancel" Style="{Styles/ButtonStyle_160x60}" Margin="20, 0" Text="Cancel"/>
+      </StackPanelWidget>
+      
+    </StackPanelWidget>
+  </CanvasWidget>
+
+</CanvasWidget>

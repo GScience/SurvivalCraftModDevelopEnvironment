@@ -1,0 +1,4 @@
+<StackPanelWidget xmlns="runtime-namespace:Game" Direction="Horizontal" VerticalAlignment="Center" Margin="0, 0">
+  <CanvasWidget Size="74, 0" />
+  <LinkWidget Name="CommunityContentItemMore.Link" Color="64, 192, 64" Font="{Fonts/Pericles18u}" Text="More Items..." />
+</StackPanelWidget>

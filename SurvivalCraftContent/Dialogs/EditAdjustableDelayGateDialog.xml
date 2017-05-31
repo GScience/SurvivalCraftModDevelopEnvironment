@@ -1,0 +1,35 @@
+<CanvasWidget xmlns="runtime-namespace:Game">
+
+  <RectangleWidget FillColor="0, 0, 0, 192" OutlineColor="0, 0, 0, 0" IsHitTestVisible="true" />
+
+  <CanvasWidget Size="600, 360" ClampToBounds="true" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" OutlineThickness="2" />
+    <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Near" Margin="0, 15">
+      
+      <LabelWidget Font="{Fonts/Pericles32}" Text="Adjust Delay" HorizontalAlignment="Center"/>
+
+      <CanvasWidget Size="0, Infinity" />
+
+      <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+        <BevelledButtonWidget Name="EditAdjustableDelayGateDialog.MinusButton" Style="{Styles/ButtonStyle_Minus}" VerticalAlignment="Center"/>
+        <CanvasWidget Size="200, 50" VerticalAlignment="Center">
+          <LabelWidget Name="EditAdjustableDelayGateDialog.Label" Font="{Fonts/Pericles24}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </CanvasWidget>
+        <BevelledButtonWidget Name="EditAdjustableDelayGateDialog.PlusButton" Style="{Styles/ButtonStyle_Plus}" VerticalAlignment="Center"/>
+      </StackPanelWidget>
+
+      <CanvasWidget Size="0, Infinity" />
+
+      <SliderWidget Name="EditAdjustableDelayGateDialog.DelaySlider" IsLabelVisible="false" Granularity="1" MinValue="0" MaxValue="255" HorizontalAlignment="Center" Margin="30, 0" />
+
+      <CanvasWidget Size="0, Infinity" />
+
+      <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+        <BevelledButtonWidget Name="EditAdjustableDelayGateDialog.OK" Style="{Styles/ButtonStyle_160x60}" Text="OK" Margin="20, 0" />
+        <BevelledButtonWidget Name="EditAdjustableDelayGateDialog.Cancel" Style="{Styles/ButtonStyle_160x60}" Margin="20, 0" Text="Cancel"/>
+      </StackPanelWidget>
+
+    </StackPanelWidget>
+  </CanvasWidget>
+
+</CanvasWidget>

@@ -1,0 +1,4 @@
+<StackPanelWidget xmlns="runtime-namespace:Game" Direction="Horizontal" Margin="0, 0">
+  <RectangleWidget Name="HelpTopicItem.Icon" FillColor="128, 128, 128" OutlineColor="0, 0, 0, 0" Size="64, 64" VerticalAlignment="Center" HorizontalAlignment="Center" Subtexture="{Textures/Atlas/HelpTopicIcon}"/>
+  <LabelWidget Name="HelpTopicItem.Title" Text="" Font="{Fonts/Pericles24}" Color="255, 255, 255" VerticalAlignment="Center" Margin="10, 0"/>
+</StackPanelWidget>

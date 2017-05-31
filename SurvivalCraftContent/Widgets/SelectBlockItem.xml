@@ -1,0 +1,6 @@
+<StackPanelWidget xmlns="runtime-namespace:Game" Direction="Horizontal" VerticalAlignment="Center" >
+  <CanvasWidget Size="10, 0" />
+  <BlockIconWidget Name="SelectBlockItem.Block" Size="64, 64" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+  <CanvasWidget Size="20, 0" />
+  <LabelWidget Name="SelectBlockItem.Text" Font="{Fonts/Pericles32}" Color="255, 255, 255" VerticalAlignment="Center" />
+</StackPanelWidget>

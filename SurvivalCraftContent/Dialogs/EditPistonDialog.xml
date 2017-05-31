@@ -1,0 +1,50 @@
+<CanvasWidget xmlns="runtime-namespace:Game">
+
+  <RectangleWidget FillColor="0, 0, 0, 192" OutlineColor="0, 0, 0, 0" IsHitTestVisible="true" />
+
+  <CanvasWidget Size="600, 420" ClampToBounds="true" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" OutlineThickness="2" />
+    <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Near" Margin="15, 15">
+      
+      <LabelWidget Name="EditPistonDialog.Title" Font="{Fonts/Pericles32}" HorizontalAlignment="Center"/>
+
+      <CanvasWidget Size="0, Infinity" />
+
+      <CanvasWidget Size="Infinity, 75">
+        <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+          <CanvasWidget Size="180, -1" VerticalAlignment="Center">
+            <LabelWidget Name="EditPistonDialog.Label1" Text="Max Extension" Font="{Fonts/Pericles18}" HorizontalAlignment="Center"/>
+          </CanvasWidget>
+          <SliderWidget Name="EditPistonDialog.Slider1" VerticalAlignment="Center" LabelWidth="120" />
+        </StackPanelWidget>
+      </CanvasWidget>
+
+      <CanvasWidget Name="EditPistonDialog.Panel2" Size="Infinity, 75">
+        <StackPanelWidget Name="EditPistonDialog.Panel2" Direction="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+          <CanvasWidget Size="180, -1" VerticalAlignment="Center">
+            <LabelWidget Name="EditPistonDialog.Label2" Text="Pull Count" Font="{Fonts/Pericles18}" HorizontalAlignment="Center"/>
+          </CanvasWidget>
+          <SliderWidget Name="EditPistonDialog.Slider2" VerticalAlignment="Center" LabelWidth="120" />
+        </StackPanelWidget>
+      </CanvasWidget>
+
+      <CanvasWidget Size="Infinity, 75">
+        <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+          <CanvasWidget Size="180, -1" VerticalAlignment="Center">
+            <LabelWidget Name="EditPistonDialog.Label3" Text="Speed Setting" Font="{Fonts/Pericles18}" HorizontalAlignment="Center"/>
+          </CanvasWidget>
+          <SliderWidget Name="EditPistonDialog.Slider3" VerticalAlignment="Center" LabelWidth="120" />
+        </StackPanelWidget>
+      </CanvasWidget>
+
+      <CanvasWidget Size="0, Infinity" />
+
+      <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+        <BevelledButtonWidget Name="EditPistonDialog.OK" Style="{Styles/ButtonStyle_160x60}" Text="OK" Margin="20, 0" />
+        <BevelledButtonWidget Name="EditPistonDialog.Cancel" Style="{Styles/ButtonStyle_160x60}" Margin="20, 0" Text="Cancel"/>
+      </StackPanelWidget>
+
+    </StackPanelWidget>
+  </CanvasWidget>
+
+</CanvasWidget>

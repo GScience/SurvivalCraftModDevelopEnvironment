@@ -1,0 +1,11 @@
+<InventorySlotWidget xmlns="runtime-namespace:Game" Size="72, 72">
+  <BevelledRectangleWidget Name="InventorySlotWidget.Rectangle" Texture="{Textures/Gui/Panel}" BevelSize="-2" Light="0.35" TextureScale="0.5" CenterColor="0, 0, 0, 0"/>
+  <RectangleWidget Name="InventorySlotWidget.HighlightRectangle" FillColor="0, 0, 0, 0" OutlineColor="0, 0, 0, 0" />
+  <BlockIconWidget Name="InventorySlotWidget.Icon" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2, 2" />
+  <LabelWidget Name="InventorySlotWidget.Count" Text="64" Font="{Fonts/Pericles24}" FontScale="1" HorizontalAlignment="Far" VerticalAlignment="Far" Margin="6, 2" />
+  <ValueBarWidget Name="InventorySlotWidget.ToolHealthBar" LayoutDirection="Vertical" HorizontalAlignment="Near" VerticalAlignment="Far" BarsCount="3" FlipDirection="true" LitBarColor="32, 128, 0" UnlitBarColor="24, 24, 24, 64" BarSize="12, 12" BarSubtexture="{Textures/Atlas/ProgressBar}" Margin="4, 4" />
+  <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Far" Margin="3, 3">
+    <RectangleWidget Name="InventorySlotWidget.InteractiveOverlay" Subtexture="{Textures/Atlas/InteractiveItemOverlay}" Size="13, 14" FillColor="160, 160, 160" OutlineColor="0, 0, 0, 0" Margin="1, 0" />
+    <RectangleWidget Name="InventorySlotWidget.EditOverlay" Subtexture="{Textures/Atlas/EditItemOverlay}" Size="12, 14" FillColor="160, 160, 160" OutlineColor="0, 0, 0, 0" Margin="1, 0" />
+  </StackPanelWidget>
+</InventorySlotWidget>

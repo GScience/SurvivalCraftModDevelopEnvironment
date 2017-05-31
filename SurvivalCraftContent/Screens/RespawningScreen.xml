@@ -1,0 +1,7 @@
+<Screen xmlns="runtime-namespace:Game">
+  <RectangleWidget FillColor="0, 0, 0" OutlineColor="0, 0, 0, 0" Size="Infinity, Infinity"/>
+  <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" >
+    <LabelWidget HorizontalAlignment="Center" Text="Respawning..." Margin="0, 10" />
+    <LabelWidget HorizontalAlignment="Center" Font="{Fonts/Pericles18}" Color="128, 128, 128" Text="Your items will stay for a short time at the place of death." />
+  </StackPanelWidget>
+</Screen>

@@ -1,0 +1,60 @@
+<Screen xmlns="runtime-namespace:Game">
+
+  <ClearWidget />
+  <PanoramaWidget />
+
+  <StackPanelWidget Direction="Horizontal">
+
+    <CanvasWidget Style="{Widgets/TopBarContents}" >
+      <LabelWidget Name="TopBar.Label" Text="Modify World" />
+    </CanvasWidget>
+
+    <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Near" Margin="10, 10">
+
+      <UniformSpacingPanelWidget Direction="Horizontal" VerticalAlignment="Center">
+        <LabelWidget HorizontalAlignment="Far" VerticalAlignment="Center" Font="{Fonts/Pericles18}" Text="Rename World" Margin="10, 0"/>
+        <CanvasWidget VerticalAlignment="Center" Margin="9, 5" >
+          <RectangleWidget Size="380, 50" FillColor="0, 0, 0, 192" OutlineColor="128, 128, 128, 128" />
+          <TextBoxWidget Name="Name" Title="Rename World" Size="380, 50" VerticalAlignment="Center" Font="{Fonts/Pericles24}" MaximumLength="14" Margin="10, 0" />
+        </CanvasWidget>
+      </UniformSpacingPanelWidget>
+
+      <UniformSpacingPanelWidget Direction="Horizontal" VerticalAlignment="Center">
+        <LabelWidget HorizontalAlignment="Far" VerticalAlignment="Center" Font="{Fonts/Pericles18}" Text="World Seed" Margin="10, 0" />
+        <CanvasWidget VerticalAlignment="Center" Margin="9, 5">
+          <RectangleWidget Size="380, 50" FillColor="0, 0, 0, 192" OutlineColor="128, 128, 128, 128" />
+          <LabelWidget Name="Seed" VerticalAlignment="Center" Font="{Fonts/Pericles24}" Margin="10, 0" Color="128, 128, 128" />
+        </CanvasWidget>
+      </UniformSpacingPanelWidget>
+
+      <UniformSpacingPanelWidget Direction="Horizontal" VerticalAlignment="Center">
+        <LabelWidget HorizontalAlignment="Far" VerticalAlignment="Center" Font="{Fonts/Pericles18}" Text="Game Mode" Margin="10, 0" />
+        <BevelledButtonWidget Name="GameMode" Style="{Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="5, 0" />
+      </UniformSpacingPanelWidget>
+
+      <UniformSpacingPanelWidget Direction="Horizontal" VerticalAlignment="Center">
+        <LabelWidget HorizontalAlignment="Far" VerticalAlignment="Center" Font="{Fonts/Pericles18}" Text="Change World Options" Margin="10, 0" />
+        <BevelledButtonWidget Name="WorldOptions" Style="{Styles/ButtonStyle_310x60}" Text="Options..." VerticalAlignment="Center" Margin="5, 0" />
+      </UniformSpacingPanelWidget>
+
+      <CanvasWidget Size="0, Infinity"/>
+
+      <CanvasWidget HorizontalAlignment="Center">
+        <LabelWidget Name="Error" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Invalid world name" Font="{Fonts/Pericles18}" Color="255, 0, 0"/>
+        <LabelWidget Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" TextAnchor="HorizontalCenter, VerticalCenter" Font="{Fonts/Pericles18}" Color="128, 128, 128" WordWrap="true" Margin="10, 0" />
+      </CanvasWidget>
+
+      <CanvasWidget Size="0, Infinity"/>
+
+      <StackPanelWidget HorizontalAlignment="Center" VerticalAlignment="Far">
+        <BevelledButtonWidget Name="Delete" Style="{Styles/ButtonStyle_160x60}" Text="Delete" Margin="6, 0"/>
+        <BevelledButtonWidget Name="Upload" Style="{Styles/ButtonStyle_160x60}" Text="Upload" Margin="6, 0"/>
+        <CanvasWidget Size="Infinity, 0"/>
+        <BevelledButtonWidget Name="Apply" Style="{Styles/ButtonStyle_310x60}" Text="Apply Changes" Margin="6, 0"/>
+      </StackPanelWidget>
+
+    </StackPanelWidget>
+
+  </StackPanelWidget>
+
+</Screen>

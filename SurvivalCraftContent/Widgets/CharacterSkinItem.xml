@@ -1,0 +1,10 @@
+<StackPanelWidget xmlns="runtime-namespace:Game" Direction="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+  <CanvasWidget Margin="20, 0" VerticalAlignment="Center">
+    <RectangleWidget FillColor="0, 0, 0, 0" OutlineColor="255, 255, 255, 48" Size="56, 56"/>
+    <ModelWidget Name="CharacterSkinItem.Model" Size="28, 56" Model="{Models/Human}" TextureOverride="{Textures/Creatures/Human}" ViewPosition="0, 1.5, -1.75" ViewTarget="0, 0.95, 0" AutoRotationVector="0, 1, 0" HorizontalAlignment="Center" />
+  </CanvasWidget>
+  <StackPanelWidget Direction="Vertical" VerticalAlignment="Center">
+    <LabelWidget Name="CharacterSkinItem.Text" Text="" Font="{Fonts/Pericles24}" Color="255, 255, 255" />
+    <LabelWidget Name="CharacterSkinItem.Details" Font="{Fonts/Pericles18}" Color="128, 128, 128" VerticalAlignment="Center" />
+  </StackPanelWidget>
+</StackPanelWidget>

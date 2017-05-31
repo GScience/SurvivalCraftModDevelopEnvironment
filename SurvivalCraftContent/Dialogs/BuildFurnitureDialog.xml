@@ -1,0 +1,76 @@
+<CanvasWidget xmlns="runtime-namespace:Game">
+
+  <RectangleWidget FillColor="0, 0, 0, 192" OutlineColor="0, 0, 0, 0" IsHitTestVisible="true" />
+
+  <CanvasWidget Size="720, 420" ClampToBounds="true" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <BevelledRectangleWidget Texture="{Textures/Gui/Panel}" BevelSize="3" TextureScale="0.5"/>
+
+    <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
+
+      <CanvasWidget Size="0, 5" />
+
+      <CanvasWidget Size="Infinity, 70">
+        <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+          <LabelWidget Name="BuildFurnitureDialog.Name" HorizontalAlignment="Center"/>
+          <LabelWidget Name="BuildFurnitureDialog.Status" Font="{Fonts/Pericles18}" Color="128, 128, 128, 255" HorizontalAlignment="Center"/>
+        </StackPanelWidget>
+        <BevelledButtonWidget Style="{Styles/ButtonStyle_70x60}" HorizontalAlignment="Far" VerticalAlignment="Center" Name="BuildFurnitureDialog.NameButton" Text="..." Margin="12, 0" />
+      </CanvasWidget>
+
+      <CanvasWidget Size="0, Infinity" />
+      
+      <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+
+        <CanvasWidget VerticalAlignment="Center">
+          <StackPanelWidget Direction="Vertical" VerticalAlignment="Center">
+            <BevelledButtonWidget Size="218, 60" HorizontalAlignment="Center" Name="BuildFurnitureDialog.AxisButton" Font="{Fonts/Pericles24}" />
+            <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+              <BevelledButtonWidget Style="{Styles/ButtonStyle_TurnLeft}" Name="BuildFurnitureDialog.TurnLeftButton" />
+              <BevelledButtonWidget Style="{Styles/ButtonStyle_ArrowUp}" Name="BuildFurnitureDialog.UpButton" />
+              <BevelledButtonWidget Style="{Styles/ButtonStyle_TurnRight}" Name="BuildFurnitureDialog.TurnRightButton" />
+            </StackPanelWidget>
+            <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+              <BevelledButtonWidget Style="{Styles/ButtonStyle_ArrowLeft}" Name="BuildFurnitureDialog.LeftButton" />
+              <BevelledButtonWidget Style="{Styles/ButtonStyle_ArrowDown}" Name="BuildFurnitureDialog.DownButton" />
+              <BevelledButtonWidget Style="{Styles/ButtonStyle_ArrowRight}" Name="BuildFurnitureDialog.RightButton" />
+            </StackPanelWidget>
+            <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+              <BevelledButtonWidget Style="{Styles/ButtonStyle_Minus}" Name="BuildFurnitureDialog.DecreaseResolutionButton" />
+              <CanvasWidget Size="40, 60">
+                <LabelWidget Name="BuildFurnitureDialog.ResolutionLabel" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              </CanvasWidget>
+              <BevelledButtonWidget Style="{Styles/ButtonStyle_Plus}" Name="BuildFurnitureDialog.IncreaseResolutionButton" />
+            </StackPanelWidget>
+          </StackPanelWidget>
+        </CanvasWidget>
+
+        <CanvasWidget Size="4, 0" />
+
+        <CanvasWidget Size="228, 228" VerticalAlignment="Center">
+          <BevelledRectangleWidget Texture="{Textures/Gui/Panel}" BevelSize="-2" TextureScale="0.5" CenterColor="0, 0, 0"/>
+          <FurnitureDesignWidget Name="BuildFurnitureDialog.Design2d" Margin="5, 5" />
+        </CanvasWidget>
+
+        <CanvasWidget Size="4, 0" />
+
+        <CanvasWidget Size="228, 228" VerticalAlignment="Center">
+          <BevelledRectangleWidget Texture="{Textures/Gui/Panel}" BevelSize="-2" TextureScale="0.5" CenterColor="0, 0, 0"/>
+          <FurnitureDesignWidget Name="BuildFurnitureDialog.Design3d" Margin="5, 5"/>
+        </CanvasWidget>
+
+      </StackPanelWidget>
+
+      <CanvasWidget Size="0, Infinity" />
+
+      <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+        <BevelledButtonWidget Style="{Styles/ButtonStyle_160x60}" HorizontalAlignment="Center" Name="BuildFurnitureDialog.BuildButton" Text="Build" />
+        <CanvasWidget Size="20, 0" />
+        <BevelledButtonWidget Style="{Styles/ButtonStyle_160x60}" HorizontalAlignment="Center" Name="BuildFurnitureDialog.CancelButton" Text="Cancel" />
+      </StackPanelWidget>
+
+      <CanvasWidget Size="0, 12" />
+
+  </StackPanelWidget>
+
+  </CanvasWidget>
+</CanvasWidget>

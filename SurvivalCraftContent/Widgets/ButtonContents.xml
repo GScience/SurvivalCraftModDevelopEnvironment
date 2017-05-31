@@ -1,0 +1,6 @@
+<BitmapButtonWidget xmlns="runtime-namespace:Game">
+  <RectangleWidget Name="Button.Rectangle" OutlineColor="0, 0, 0, 0" FillColor="255, 255, 255" />
+  <RectangleWidget Name="Button.Image" IsVisible="false" />
+  <LabelWidget Name="Button.Label" Font="{Fonts/Pericles32}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+  <ClickableWidget Name="Button.Clickable" SoundName="Audio/UI/ButtonClick" />
+</BitmapButtonWidget>

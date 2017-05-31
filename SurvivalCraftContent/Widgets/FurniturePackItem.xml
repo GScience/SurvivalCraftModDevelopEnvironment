@@ -1,0 +1,9 @@
+<StackPanelWidget xmlns="runtime-namespace:Game" Direction="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+  <CanvasWidget Margin="20, 0" VerticalAlignment="Center">
+    <RectangleWidget Name="FurniturePackItem.Icon" Subtexture="{Textures/Atlas/FurnitureIcon}" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" Size="56, 56"/>
+  </CanvasWidget>
+  <StackPanelWidget Direction="Vertical" VerticalAlignment="Center">
+    <LabelWidget Name="FurniturePackItem.Text" Text="" Font="{Fonts/Pericles24}" Color="255, 255, 255" />
+    <LabelWidget Name="FurniturePackItem.Details" Font="{Fonts/Pericles18}" Color="128, 128, 128" VerticalAlignment="Center" />
+  </StackPanelWidget>
+</StackPanelWidget>

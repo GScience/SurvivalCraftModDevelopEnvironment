@@ -1,0 +1,5 @@
+<CanvasWidget xmlns="runtime-namespace:Game" Size="160, 160" IsHitTestVisible="false">
+  <BlockIconWidget Name="InventoryDragWidget.Icon" Depth="0"/>
+  <LabelWidget Name="InventoryDragWidget.Name" Text="" Font="{Fonts/Pericles24}" FontScale="1" HorizontalAlignment="Center" VerticalAlignment="Near" />
+  <LabelWidget Name="InventoryDragWidget.Count" Text="64" Font="{Fonts/Pericles24}" FontScale="1" HorizontalAlignment="Near" VerticalAlignment="Center" />
+</CanvasWidget>

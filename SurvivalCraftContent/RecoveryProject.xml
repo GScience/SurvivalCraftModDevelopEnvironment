@@ -1,0 +1,62 @@
+<Project Guid="9e9a67f8-79df-4d05-8cfa-61bd8095661e" Name="GameProject" Version="1.19">
+  <Subsystems>
+    <Values Name="Player">
+      <Value Name="SpawnPosition" Type="Microsoft.Xna.Framework.Vector3" Value="3347.5,65,7640.5" />
+      <Value Name="LastSpawnTime" Type="System.Double" Value="0" />
+    </Values>
+    <Values Name="Pickables">
+      <Values Name="Pickables">
+      </Values>
+    </Values>
+    <Values Name="ExplosivesBlockBehavior">
+      <Values Name="Explosives" />
+    </Values>
+    <Values Name="CreatureSpawn">
+      <Values Name="Chunks">
+      </Values>
+    </Values>
+    <Values Name="WoodBehavior">
+      <Value Name="LeavesToCheck" Type="System.String" Value="" />
+    </Values>
+    <Values Name="Camera">
+      <Value Name="ActiveCameraIndex" Type="System.Int32" Value="1" />
+    </Values>
+    <Values Name="Weather">
+      <Value Name="WeatherStartTime" Type="System.Double" Value="0" />
+      <Value Name="WeatherEndTime" Type="System.Double" Value="0" />
+      <Value Name="LightningIntensity" Type="System.Single" Value="0" />
+    </Values>
+    <Values Name="SignBlockBehavior">
+      <Values Name="Texts" />
+    </Values>
+    <Values Name="Projectiles">
+      <Values Name="Projectiles" />
+    </Values>
+    <Values Name="GameInfo">
+      <Value Name="WorldName" Type="System.String" Value="RecoveredWorld" />
+      <Value Name="WorldSeed" Type="System.Int32" Value="0" />
+      <Value Name="WorldSeedString" Type="System.String" Value="0" />
+      <Value Name="TotalElapsedGameTime" Type="System.Double" Value="0" />
+      <Value Name="GameMode" Type="Game.GameMode" Value="Creative" />
+      <Value Name="EnvironmentBehaviorMode" Type="Game.EnvironmentBehaviorMode" Value="Living" />
+      <Value Name="TerrainGenerationMode" Type="Game.TerrainGenerationMode" Value="Normal" />
+    </Values>
+    <Values Name="Intro">
+      <Value Name="PlayIntro" Type="System.Boolean" Value="False" />
+    </Values>
+    <Values Name="Electricity">
+      <Value Name="VoltagesByCell" Type="System.String" Value="" />
+    </Values>
+    <Values Name="SaplingBlockBehavior">
+      <Values Name="Saplings" />
+    </Values>
+    <Values Name="TimeOfDay">
+      <Value Name="TimeOfDayOffset" Type="System.Double" Value="0" />
+    </Values>
+    <Values Name="CollapsingBlockBehavior">
+      <Values Name="CollapsingBlocks" />
+    </Values>
+  </Subsystems>
+  <Entities>
+  </Entities>
+</Project>

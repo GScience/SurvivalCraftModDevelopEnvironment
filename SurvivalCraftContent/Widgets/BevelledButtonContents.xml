@@ -1,0 +1,9 @@
+<BevelledButtonWidget xmlns="runtime-namespace:Game">
+  <CanvasWidget Name="BevelledButton.Canvas" Margin="6, 6">
+    <BevelledRectangleWidget Name="BevelledButton.Rectangle" Texture="{Textures/Gui/Panel}" TextureScale="0.5" />
+    <RectangleWidget Name="BevelledButton.Image" IsVisible="false" />
+    <LabelWidget Name="BevelledButton.Label" Font="{Fonts/Pericles32}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    <ClickableWidget Name="BevelledButton.Clickable" SoundName="Audio/UI/ButtonClick" />
+  </CanvasWidget>
+</BevelledButtonWidget>
+ 

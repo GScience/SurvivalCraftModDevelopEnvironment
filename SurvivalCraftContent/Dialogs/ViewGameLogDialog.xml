@@ -1,0 +1,31 @@
+<CanvasWidget xmlns="runtime-namespace:Game">
+
+  <RectangleWidget FillColor="0, 0, 0, 192" OutlineColor="0, 0, 0, 0" IsHitTestVisible="true" />
+
+  <CanvasWidget Size="780, 440" ClampToBounds="true" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 255" OutlineThickness="2" />
+    
+    <StackPanelWidget Direction="Vertical" >
+
+      <CanvasWidget>
+        <RectangleWidget FillColor="0, 0, 0, 0" OutlineColor="128, 128, 128, 255" OutlineThickness="2" />
+        <ListPanelWidget Name="ViewGameLogDialog.ListPanel" ItemSize="16" Direction="Vertical" Margin="3, 3" />
+      </CanvasWidget>
+
+      <CanvasWidget Size="0, 10" />
+      
+      <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+        <BevelledButtonWidget Name="ViewGameLogDialog.CopyButton" Style="{Styles/ButtonStyle_160x60}" VerticalAlignment="Center" Text="Copy"/>
+        <CanvasWidget Size="40, 0" />
+        <BevelledButtonWidget Name="ViewGameLogDialog.FilterButton" Style="{Styles/ButtonStyle_310x60}" VerticalAlignment="Center"/>
+        <CanvasWidget Size="40, 0" />
+        <BevelledButtonWidget Name="ViewGameLogDialog.CloseButton" Style="{Styles/ButtonStyle_160x60}" VerticalAlignment="Center" Text="Close"/>
+      </StackPanelWidget>
+
+      <CanvasWidget Size="0, 10" />
+
+    </StackPanelWidget>
+    
+  </CanvasWidget>
+
+</CanvasWidget>

@@ -1,0 +1,4 @@
+<StackPanelWidget xmlns="runtime-namespace:Game" Direction="Horizontal" HorizontalAlignment="Near" VerticalAlignment="Center" Margin="0, 0">
+  <RectangleWidget Name="SelectExternalContentType.Icon" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" Size="64, 64" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="4, 0"/>
+  <LabelWidget Name="SelectExternalContentType.Text" Font="{Fonts/Pericles32}" Color="255, 255, 255" VerticalAlignment="Center" Margin="10, 0"/>
+</StackPanelWidget>

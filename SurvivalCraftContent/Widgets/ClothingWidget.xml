@@ -1,0 +1,27 @@
+<ClothingWidget xmlns="runtime-namespace:Game">
+  
+  <BevelledRectangleWidget Size="614, 382" Texture="{Textures/Gui/Panel}" BevelSize="3" TextureScale="0.5" />
+  <LabelWidget CanvasWidget.Position="108, 14" Text="Body/Food" Font="{Fonts/Pericles24}" Color="255, 255, 255, 192"/>
+  <LabelWidget CanvasWidget.Position="286, 14" Text="Inventory" Font="{Fonts/Pericles24}" Color="255, 255, 255, 192"/>
+
+  <CanvasWidget CanvasWidget.Position="24, 52" Size="80, 288" >
+    <StackPanelWidget Direction="Vertical" VerticalAlignment="Center">
+      <BevelledButtonWidget Name="VitalStatsButton" Text="" Style="{Styles/ButtonStyle_70x60}">
+        <RectangleWidget Size="40, 40" OutlineColor="0, 0, 0, 0" FillColor="255, 255, 255" Subtexture="{Textures/Atlas/VitalStats}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+      </BevelledButtonWidget>
+      <BevelledButtonWidget Name="SleepButton" Text="" Style="{Styles/ButtonStyle_70x60}">
+        <RectangleWidget Size="40, 40" OutlineColor="0, 0, 0, 0" FillColor="255, 255, 255" Subtexture="{Textures/Atlas/Sleep}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+      </BevelledButtonWidget>
+    </StackPanelWidget>
+  </CanvasWidget>
+  
+  <CanvasWidget CanvasWidget.Position="106, 52" Size="160, 288">
+    <BevelledRectangleWidget Texture="{Textures/Gui/Panel}" BevelSize="-2" />
+    <StackPanelWidget Name="ClothingStack" Direction="Vertical" />
+    <ModelWidget Name="InnerClothingModel" Model="{Models/Human}" IsPerspective="true" Size="Infinity, Infinity" ViewPosition="0, 1.3, -3.2" ViewTarget="0, 0.9, 0" ViewFov="0.6" AutoRotationVector="0, 0, 0"/>
+    <ModelWidget Name="OuterClothingModel" Model="{Models/OuterClothing}" IsPerspective="true" UseAlphaThreshold="true" Size="Infinity, Infinity" ViewPosition="0, 1.3, -3.2" ViewTarget="0, 0.9, 0" ViewFov="0.6" AutoRotationVector="0, 0, 0"/>
+  </CanvasWidget>
+  
+  <GridPanelWidget CanvasWidget.Position="286, 52" Name="InventoryGrid" ColumnsCount="4" RowsCount="4"/>
+
+</ClothingWidget>

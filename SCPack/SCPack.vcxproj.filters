@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="binaryio.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="native.cpp" />
+    <ClCompile Include="pack.cpp" />
+    <ClCompile Include="pakfile.cpp" />
+    <ClCompile Include="scpak.cpp" />
+    <ClCompile Include="stb.cpp" />
+    <ClCompile Include="unpack.cpp" />
+    <ClCompile Include="wav.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binaryio.h" />
+    <ClInclude Include="native.h" />
+    <ClInclude Include="pack.h" />
+    <ClInclude Include="pakfile.h" />
+    <ClInclude Include="scpak.h" />
+    <ClInclude Include="unpack.h" />
+    <ClInclude Include="wav.h" />
+  </ItemGroup>
+</Project>

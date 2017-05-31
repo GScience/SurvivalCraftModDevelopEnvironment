@@ -1,0 +1,8 @@
+<FurnitureSetItemWidget xmlns="runtime-namespace:Game" Size="Infinity, Infinity">
+  <StackPanelWidget Direction="Vertical" VerticalAlignment="Center" Margin="4, 0" IsHitTestVisible="false">
+    <LabelWidget Name="FurnitureSetItem.Name" Font="{Fonts/Pericles24}" />
+    <StackPanelWidget Direction="Horizontal" IsHitTestVisible="false">
+      <LabelWidget Name="FurnitureSetItem.DesignsCount" Font="{Fonts/Pericles18}" Color="128, 128, 128" />
+    </StackPanelWidget>
+  </StackPanelWidget>
+</FurnitureSetItemWidget>

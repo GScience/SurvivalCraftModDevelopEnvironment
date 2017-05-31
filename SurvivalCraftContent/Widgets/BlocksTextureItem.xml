@@ -1,0 +1,7 @@
+<StackPanelWidget xmlns="runtime-namespace:Game" Direction="Horizontal" VerticalAlignment="Center">
+  <RectangleWidget Name="BlocksTextureItem.Icon" Size="56, 56" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20, 0"/>
+  <StackPanelWidget Direction="Vertical" VerticalAlignment="Center">
+    <LabelWidget Name="BlocksTextureItem.Text" Font="{Fonts/Pericles24}" Color="255, 255, 255" />
+    <LabelWidget Name="BlocksTextureItem.Details" Font="{Fonts/Pericles18}" Color="128, 128, 128" VerticalAlignment="Center" />
+  </StackPanelWidget>
+</StackPanelWidget>
