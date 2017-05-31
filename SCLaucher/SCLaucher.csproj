@@ -150,8 +150,8 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>$(SolutionDir)Tools\SCPack.exe $(SolutionDir)SurvivalCraftContent
-copy $(SolutionDir)SurvivalCraftContent.pak $(ProjectDir)Content.pak</PreBuildEvent>
+    <PreBuildEvent>"$(SolutionDir)Tools\SCPack.exe" "$(SolutionDir)SurvivalCraftContent"
+copy "$(SolutionDir)SurvivalCraftContent.pak" "$(ProjectDir)Content.pak"</PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>

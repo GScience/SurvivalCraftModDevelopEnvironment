@@ -153,22 +153,22 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)UserCode.dll
+    <PostBuildEvent>copy "$(TargetPath)" "$(SolutionDir)UserCode.dll"
 
-mkdir $(SolutionDir)Tmp
+mkdir "$(SolutionDir)Tmp"
 
-$(SolutionDir)Tools\ildasm.exe $(SolutionDir)Survivalcraft.exe /OUT=$(SolutionDir)Tmp\SurvivalCraft.IL
-$(SolutionDir)Tools\ildasm.exe $(SolutionDir)UserCode.dll /OUT=$(SolutionDir)Tmp\UserCode.IL
-$(SolutionDir)Tools\SCCodeInstaller.exe $(SolutionDir)Tmp\SurvivalCraft.IL $(SolutionDir)Tmp\UserCode.IL
+"$(SolutionDir)Tools\ildasm.exe" "$(SolutionDir)Survivalcraft.exe" /OUT="$(SolutionDir)Tmp\SurvivalCraft.IL"
+"$(SolutionDir)Tools\ildasm.exe" "$(SolutionDir)UserCode.dll" /OUT="$(SolutionDir)Tmp\UserCode.IL"
+"$(SolutionDir)Tools\SCCodeInstaller.exe" "$(SolutionDir)Tmp\SurvivalCraft.IL" "$(SolutionDir)Tmp\UserCode.IL"
 
-mkdir $(SolutionDir)\Tmp\Patch
+mkdir "$(SolutionDir)\Tmp\Patch"
 
-copy $(SolutionDir)Tmp\SurvivalCraft.IL.patch $(SolutionDir)Tmp\Patch\SurvivalCraft.IL
-copy $(SolutionDir)Tmp\SurvivalCraft.res $(SolutionDir)Tmp\Patch\SurvivalCraft.res
+copy "$(SolutionDir)Tmp\SurvivalCraft.IL.patch" "$(SolutionDir)Tmp\Patch\SurvivalCraft.IL"
+copy "$(SolutionDir)Tmp\SurvivalCraft.res" "$(SolutionDir)Tmp\Patch\SurvivalCraft.res"
 
-$(SolutionDir)Tools\ilasm.exe $(SolutionDir)Tmp\Patch\SurvivalCraft.IL
+"$(SolutionDir)Tools\ilasm.exe" "$(SolutionDir)Tmp\Patch\SurvivalCraft.IL"
 
-copy $(SolutionDir)Tmp\Patch\SurvivalCraft.exe $(SolutionDir)SurvivalCraftAssembly\SurvivalCraft.exe
+copy "$(SolutionDir)Tmp\Patch\SurvivalCraft.exe" "$(SolutionDir)SurvivalCraftAssembly\SurvivalCraft.exe"
 </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

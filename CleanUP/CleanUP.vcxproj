@@ -36,19 +36,19 @@
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <PreBuildEvent>
-      <Command>rd /s /q $(SolutionDir)Tmp
-del /q $(SolutionDir)UserCode.dll
-del /q $(SolutionDir)SurvivalCraftAssembly\SurvivalCraft.exe
-del /q $(SolutionDir)SCLaucher\Content.pak
-del /q $(SolutionDir)SurvivalCraftContent.pak
-rd /s/q $(SolutionDir)SCLaucher\bin
-rd /s /q $(SolutionDir)ExternalAssembly\bin
-rd /s /q $(SolutionDir)UserCode\bin
-rd /s/q $(SolutionDir)SCLaucher\obj
-rd /s /q $(SolutionDir)ExternalAssembly\obj
-rd /s /q $(SolutionDir)UserCode\obj
-rd /s /q $(SolutionDir)SCPack\bin
-rd /s /q $(SolutionDir)SCCodeInstaller\bin</Command>
+      <Command>rd /s /q "$(SolutionDir)Tmp"
+del /q "$(SolutionDir)UserCode.dll"
+del /q "$(SolutionDir)SurvivalCraftAssembly\SurvivalCraft.exe"
+del /q "$(SolutionDir)SCLaucher\Content.pak"
+del /q "$(SolutionDir)SurvivalCraftContent.pak"
+rd /s/q "$(SolutionDir)SCLaucher\bin"
+rd /s /q "$(SolutionDir)ExternalAssembly\bin"
+rd /s /q "$(SolutionDir)UserCode\bin"
+rd /s/q "$(SolutionDir)SCLaucher\obj"
+rd /s /q "$(SolutionDir)ExternalAssembly\obj"
+rd /s /q "$(SolutionDir)UserCode\obj"
+rd /s /q "$(SolutionDir)SCPack\bin"
+rd /s /q "$(SolutionDir)SCCodeInstaller\bin"</Command>
     </PreBuildEvent>
     <Link />
   </ItemDefinitionGroup>

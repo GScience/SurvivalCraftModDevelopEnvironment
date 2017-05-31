@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
 	if (_mkdir((survivalCraftCodeDir + "_old").c_str()) != -1)
 		devideILCode(sourcePath.c_str(), (survivalCraftCodeDir + "_old").c_str());
 
-	system(((string)"xcopy " + survivalCraftCodeDir + "_old " + survivalCraftCodeDir + "/y /s /i").c_str());
+	system(((string)"xcopy \"" + survivalCraftCodeDir + "_old\" \"" + survivalCraftCodeDir + "\" /y /s /i").c_str());
 
 	_mkdir(additionCodeDir.c_str());
 	devideILCode(additionCodePath.c_str(), additionCodeDir.c_str());

@@ -106,7 +106,7 @@
       </Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Command>copy $(TargetPath) $(SolutionDir)Tools\SCCodeInstaller.exe</Command>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)Tools\SCCodeInstaller.exe"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -121,7 +121,7 @@
       <SubSystem>Console</SubSystem>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(TargetPath) $(SolutionDir)Tools\SCCodeInstaller.exe</Command>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)Tools\SCCodeInstaller.exe"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -140,7 +140,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(TargetPath) $(SolutionDir)Tools\SCCodeInstaller.exe</Command>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)Tools\SCCodeInstaller.exe"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -159,7 +159,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(TargetPath) $(SolutionDir)Tools\SCCodeInstaller.exe</Command>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)Tools\SCCodeInstaller.exe"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
