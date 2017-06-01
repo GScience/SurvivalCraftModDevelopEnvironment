@@ -150,12 +150,22 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>"$(SolutionDir)Tools\SCPack.exe" "$(SolutionDir)SurvivalCraftContent"
-copy "$(SolutionDir)SurvivalCraftContent.pak" "$(ProjectDir)Content.pak"</PreBuildEvent>
+    <PreBuildEvent>if exist "$(ProjectDir)Content.pak" goto exit
+"$(SolutionDir)Tools\SCPack.exe" "$(SolutionDir)SurvivalCraftContent"
+copy "$(SolutionDir)SurvivalCraftContent.pak" "$(ProjectDir)Content.pak"
+
+:exit</PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>if exist "$(ProjectDir)Content.pak" goto packup
+
+goto exit
+
+:packup
+"$(SolutionDir)Tools\SCPack.exe" "$(SolutionDir)SurvivalCraftContent"
+copy "$(SolutionDir)SurvivalCraftContent.pak" "$(ProjectDir)Content.pak"
+
+:exit</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
