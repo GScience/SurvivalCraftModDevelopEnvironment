@@ -120,6 +120,7 @@
     <Compile Include="Game\SubsystemEggBlockBehavior.cs" />
     <Compile Include="Game\VersionsManager.cs" />
     <Compile Include="GScienceStudio\InputManager.cs" />
+    <Compile Include="GScienceStudio\TestBlock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Test.rd.xml" />
   </ItemGroup>
