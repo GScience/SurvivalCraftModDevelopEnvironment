@@ -41,10 +41,6 @@ namespace Game
                 entity.FindComponent<ComponentBody>(true).Rotation = Quaternion.CreateFromAxisAngle(Vector3.UnitY, this.m_random.UniformFloat(0f, 6.283185f));
                 entity.FindComponent<ComponentSpawn>(true).SpawnDuration = 0.25f;
                 base.Project.AddEntity(entity);
-                if (this.m_subsystemCreatureSpawn.Creatures.Count > 30)
-                {
-                    this.m_subsystemGui.DisplaySmallMessage("Too many creatures. But you can still drop egg~", true, false);
-                }
             }
             return true;
         }

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Engine.Content;
 using System.Xml.Linq;
+using ExternalAssembly.GScienceStudio;
 
 namespace Game
 {
@@ -16,11 +17,22 @@ namespace Game
         private bool m_loadingFinished;
         private bool m_pauseLoading;
         private bool m_loadingErrorsSuppressed;
-        private bool m_hasShowDialog = false;
 
         public LoadingScreen()
         {
             WidgetsManager.LoadWidgetContents((Widget)this.ScreenWidget, (object)this, ContentManager.Get<XElement>("Screens/LoadingScreen"));
+
+            LabelWidget ExternalAssemblyInfo = new LabelWidget();
+
+            ExternalAssemblyInfo.Text = "Powered By GScience Studio\n";
+            //下列两行代码请勿随意删除
+            ExternalAssemblyInfo.Text += "Author:" + Info.author + "\n";
+            ExternalAssemblyInfo.Text += "Version:" + Info.version;
+            
+            ExternalAssemblyInfo.Color = Color.LightBlue;
+            ExternalAssemblyInfo.FontScale = 0.5f;
+            this.ScreenWidget.Children.Add(ExternalAssemblyInfo);
+
             this.AddLoadAction((Action)(() => CommunityContentManager.Initialize()));
             this.AddLoadAction((Action)(() => MotdManager.Initialize()));
             this.AddLoadAction((Action)(() => LightingManager.Initialize()));
@@ -45,6 +57,7 @@ namespace Game
             this.AddLoadAction((Action)(() => FurniturePacksManager.Initialize()));
             this.AddLoadAction((Action)(() => BlocksManager.Initialize()));
             this.AddLoadAction((Action)(() => CraftingRecipesManager.Initialize()));
+            this.AddLoadAction((Action)(() => GScienceStudio.InputManager.Initialize()));
         }
 
         public void AddLoadAction(Action action)
@@ -54,7 +67,6 @@ namespace Game
 
         public override void Leave()
         {
-            DialogsManager.ShowDialog(new MessageDialog("Made By GM2000! He is our God!", "just a joke...", "I know", "", null));
             ContentManager.Dispose("Textures/Gui/CandyRufusLogo");
             ContentManager.Dispose("Textures/Gui/EngineLogo");
         }

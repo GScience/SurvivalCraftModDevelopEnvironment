@@ -116,7 +116,10 @@
   <ItemGroup>
     <Compile Include="Game\LoadingScreen.cs" />
     <Compile Include="Game\MarketplaceManager.cs" />
+    <Compile Include="Game\SingleplayerScreen.cs" />
     <Compile Include="Game\SubsystemEggBlockBehavior.cs" />
+    <Compile Include="Game\VersionsManager.cs" />
+    <Compile Include="GScienceStudio\InputManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Test.rd.xml" />
   </ItemGroup>
@@ -144,9 +147,6 @@
       <Project>{bc3a880c-d319-44ad-a236-8769ec0d720e}</Project>
       <Name>ExternalAssembly</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GScienceStudio\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
