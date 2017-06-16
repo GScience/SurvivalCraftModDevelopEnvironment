@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExternalAssembly;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace SCLaucher
     {
         public static void Main()
         {
+            Mod.Initialize();
             Game.Program.Main();
         }
     }

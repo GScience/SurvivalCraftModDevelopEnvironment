@@ -106,7 +106,8 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="GScienceStudio\Info.cs" />
+    <Compile Include="Mod.cs" />
+    <Compile Include="Test\TestBlock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\ExternalAssembly.rd.xml" />
   </ItemGroup>
@@ -119,11 +120,10 @@
     <Reference Include="Engine">
       <HintPath>..\SurvivalCraftAssembly\Engine.dll</HintPath>
     </Reference>
-    <Reference Include="Survivalcraft">
-      <HintPath>..\Survivalcraft.exe</HintPath>
+    <Reference Include="SurvivalCraft">
+      <HintPath>..\SurvivalCraftAssembly\SurvivalCraft.exe</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

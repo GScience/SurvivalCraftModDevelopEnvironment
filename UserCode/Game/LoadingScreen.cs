@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Engine.Content;
 using System.Xml.Linq;
-using ExternalAssembly.GScienceStudio;
+using GScience.ModAPI;
 
 namespace Game
 {
@@ -27,7 +27,7 @@ namespace Game
             ExternalAssemblyInfo.Text = "Powered By GScience Studio\n";
             //下列两行代码请勿随意删除
             ExternalAssemblyInfo.Text += "Author:" + Info.author + "\n";
-            ExternalAssemblyInfo.Text += "Version:" + Info.version;
+            ExternalAssemblyInfo.Text += "Mod API Version:" + Info.version;
             
             ExternalAssemblyInfo.Color = Color.LightBlue;
             ExternalAssemblyInfo.FontScale = 0.5f;
@@ -55,9 +55,9 @@ namespace Game
             this.AddLoadAction((Action)(() => BlocksTexturesManager.Initialize()));
             this.AddLoadAction((Action)(() => CharacterSkinsManager.Initialize()));
             this.AddLoadAction((Action)(() => FurniturePacksManager.Initialize()));
-            this.AddLoadAction((Action)(() => BlocksManager.Initialize()));
+            this.AddLoadAction((Action)(() => Game.BlocksManager.Initialize()));
             this.AddLoadAction((Action)(() => CraftingRecipesManager.Initialize()));
-            this.AddLoadAction((Action)(() => GScienceStudio.InputManager.Initialize()));
+            this.AddLoadAction((Action)(() => GScience.ModAPI.Debug.InputManager.Initialize()));
         }
 
         public void AddLoadAction(Action action)

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 using Engine.Serialization;
-using ExternalAssembly.GScienceStudio;
+using GScience.ModAPI;
 
 namespace Game
 {
