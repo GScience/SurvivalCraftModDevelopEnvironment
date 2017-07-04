@@ -1,3 +1,0 @@
-<CreativeInventoryPanel xmlns="runtime-namespace:Game">
-  <GridPanelWidget Name="InventoryGrid" HorizontalAlignment="Center" ColumnsCount="8" RowsCount="4" />
-</CreativeInventoryPanel>

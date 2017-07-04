@@ -1,6 +1,0 @@
-<Screen xmlns="runtime-namespace:Game">
-  <ClearWidget ClearColor="true" Color="255, 255, 255"/>
-  <RectangleWidget FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" Size="256, 256" Subtexture="{Textures/Gui/CandyRufusLogo}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-  <RectangleWidget FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" Size="80, 50" Subtexture="{Textures/Gui/EngineLogo}" VerticalAlignment="Far" HorizontalAlignment="Far" Margin="10, 10"/>
-  <BusyBarWidget VerticalAlignment="Far" HorizontalAlignment="Center" Margin="0, 40"/>
-</Screen>                                                                                                                                                          

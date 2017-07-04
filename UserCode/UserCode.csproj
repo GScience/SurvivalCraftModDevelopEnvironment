@@ -114,13 +114,10 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Game\LoadingScreen.cs" />
+    <Compile Include="Game\ComponentPlayer.cs" />
     <Compile Include="Game\MarketplaceManager.cs" />
-    <Compile Include="Game\SingleplayerScreen.cs" />
-    <Compile Include="Game\SubsystemEggBlockBehavior.cs" />
-    <Compile Include="Game\VersionsManager.cs" />
-    <Compile Include="GScienceStudio\InputManager.cs" />
-    <Compile Include="GScienceStudio\TestBlock.cs" />
+    <Compile Include="Game\PlayerInput.cs" />
+    <Compile Include="GScienceStudio\MultiPlayer\NetListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Test.rd.xml" />
   </ItemGroup>
@@ -149,6 +146,7 @@
       <Name>ExternalAssembly</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

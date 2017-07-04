@@ -1,3 +1,0 @@
-<ShortInventoryWidget xmlns="runtime-namespace:Game">
-  <GridPanelWidget Name="InventoryGrid" ColumnsCount="6" RowsCount="1"/>
-</ShortInventoryWidget>

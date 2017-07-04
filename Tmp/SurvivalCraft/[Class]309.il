@@ -1,0 +1,52 @@
+.class public auto ansi beforefieldinit Game.FlourBlock
+       extends Game.FlatBlock
+{
+  .field public static literal int32 Index = int32(0x000000AF)
+  .method public hidebysig virtual instance void 
+          DrawBlock(class [Engine]Engine.Graphics.PrimitivesRenderer3D primitivesRenderer,
+                    int32 'value',
+                    valuetype [Engine]Engine.Color color,
+                    float32 size,
+                    valuetype [Engine]Engine.Matrix& matrix,
+                    class Game.DrawBlockEnvironmentData environmentData) cil managed
+  {
+    // 代码大小       42 (0x2a)
+    .maxstack  9
+    IL_0000:  ldarg.1
+    IL_0001:  ldarg.2
+    IL_0002:  ldarg.s    size
+    IL_0004:  ldarg.s    matrix
+    IL_0006:  ldnull
+    IL_0007:  ldarg.3
+    IL_0008:  ldc.i4     0xf8
+    IL_000d:  ldc.i4     0xff
+    IL_0012:  ldc.i4     0xe8
+    IL_0017:  newobj     instance void [Engine]Engine.Color::.ctor(int32,
+                                                                   int32,
+                                                                   int32)
+    IL_001c:  call       valuetype [Engine]Engine.Color [Engine]Engine.Color::op_Multiply(valuetype [Engine]Engine.Color,
+                                                                                          valuetype [Engine]Engine.Color)
+    IL_0021:  ldc.i4.0
+    IL_0022:  ldarg.s    environmentData
+    IL_0024:  call       void Game.BlocksManager::DrawFlatBlock(class [Engine]Engine.Graphics.PrimitivesRenderer3D,
+                                                                int32,
+                                                                float32,
+                                                                valuetype [Engine]Engine.Matrix&,
+                                                                class [Engine]Engine.Graphics.Texture2D,
+                                                                valuetype [Engine]Engine.Color,
+                                                                bool,
+                                                                class Game.DrawBlockEnvironmentData)
+    IL_0029:  ret
+  } // end of method FlourBlock::DrawBlock
+
+  .method public hidebysig specialname rtspecialname 
+          instance void  .ctor() cil managed
+  {
+    // 代码大小       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  call       instance void Game.FlatBlock::.ctor()
+    IL_0006:  ret
+  } // end of method FlourBlock::.ctor
+
+} // end of class Game.FlourBlock
